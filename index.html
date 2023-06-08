@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/img/h1.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Abhishek Panta</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <!-- &#60;&#62; -->
+        <a href="#home" class="nav-logo"><img src="./assets/img/h.png" height="70px" alt="H" /></a>
+      </div>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link home active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link contact">Contact</a>
+          </li>
+          <li class="nav-item">
+          <a href = "#" onclick="myFunction()"> <img src="./assets/img/sumoon.png" alt="" height="20px" width="20px" style="background-color: transparent;"> </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid section" id="home">
+      <div class="home-data">
+        <h2 class="home-title">
+          Hello 👋🤝,<br />I'am <span class="home-title-color">Abhishek Panta</span><br />
+         <span id="jobTitle" >Computer Engineering Student</span>
+        </h2>
+
+        <a href="https://drive.google.com/file/d/1BPjW86VrmwFBCSK8LFFXtXF-JY_gU2MI/view?usp=sharing" target="_blank"
+          class="button">Resume</a>
+
+      </div>
+
+      <div class="home-social">
+        <a href="https://www.linkedin.com/in/abhishek-panta-44345018b/" target="_blank" class="home-social-icon"><i
+            class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/AbhishekPanta8" target="_blank" class="home-social-icon"><i
+            class="bx bxl-github"></i></a>
+      </div>
+
+      <div class="home-img">
+        <img src="assets/img/profile.gif" alt="" />
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about-container bd-grid">
+        <div class="about-img">
+          <img src="assets\img\my_img.jpg" alt="" />
+        </div>
+
+        <div style="text-align: center">
+          <h2 class="about-subtitle">I am Abhishek Panta</h2>
+          <p class="about-text">
+            Dedicated computer engineering enthusiast eager to
+            contribute to team success through hard work, attention to detail,
+            and problem-solving skills.
+          </p>
+          <br />
+
+          <p>
+            Drop a mail pantaabhishek@gmail.com
+            <i style="color: #4070f4; font-size: 1.2rem; cursor: pointer" class="bx bx-copy" id="copy"></i>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!---========Education ======--->
+    <section class="education section" id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="education-container bd-grid">
+
+        <div class="education-data">
+          <div class="education-names">
+            <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+            <span class="education-name">B.Tech(CSE)</span>
+            <p class="education-platform ">Kalinga Institute of Industrial Technology</p>
+            <p class="education-duration ">July 2019 - July 2023</p>
+            <p class="grade">Grade: 9.48</p>
+          </div>
+        </div>
+        </div>
+      <div class="education-container bd-grid">
+
+    <div class="education-data">
+      <div class="education-names">
+        <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+        <span class="education-name">High School</span>
+        <p class="education-platform ">Notre Dame Secondary School</p>
+        <p class="education-duration ">April 2015- April 2019</p>
+        <p class="grade">Grade: A+</p>
+      </div>
+    </div>
+    </div>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-container bd-grid">
+        <div>
+          <!-- <h2 class="skills-subtitle">Front-end Skills</h2> -->
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="assets\img\java.png" alt="" />
+              <span class="skills-name">Java</span>
+            </div>
+            <!-- <div class="skills-bar skills-css"></div>  -->
+            <div>
+                <!-- <span class="skills-percentage">70%</span> -->
+              </div>
+
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="assets\img\python.png" alt="" />
+              <span class="skills-name">Python</span>
+            </div>
+            <!-- <div class="skills-bar skills-react"></div> -->
+            <div>
+                <!-- <span class="skills-percentage">50%</span> -->
+              </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="assets\img\javascript.png" alt="" />
+              <span class="skills-name">javascript</span>
+            </div>
+            <!-- <div class="skills-bar skills-react"></div> -->
+            <div>
+                <!-- <span class="skills-percentage">50%</span> -->
+              </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="assets\img\ML.jpg" alt="" />
+              <span class="skills-name">Machine Learning</span>
+            </div>
+            <!-- <div class="skills-bar skills-react"></div> -->
+            <div>
+                <!-- <span class="skills-percentage">50%</span> -->
+              </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="assets\img\mysql.png" alt="" />
+              <span class="skills-name">MYSQL</span>
+            </div>
+            <!-- <div class="skills-bar skills-react"></div> -->
+            <div>
+                <!-- <span class="skills-percentage">50%</span> -->
+              </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="./assets/img/mongodb.png" alt="" />
+              <span class="skills-name">Mongodb</span>
+            </div>
+            <!-- <div class="skills-bar skills-react"></div> -->
+            <div>
+                <!-- <span class="skills-percentage">50%</span> -->
+              </div>
+          </div>
+        </div>
+        <div>
+          <!-- <h2 class="skills-subtitle">Back-end Skills</h2> -->
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="assets\img\node.png" alt="" />
+              <span class="skills-name">Node.js</span>
+            </div>
+            <!-- <div class="skills-bar skills-css"></div> -->
+            <div>
+                <!-- <span class="skills-percentage">70%</span> -->
+              </div>
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="assets\img\react.png" alt="" />
+              <span class="skills-name">React.js</span>
+            </div>
+            <!-- <div class="skills-bar skills-css"></div>  -->
+            <div>
+                <!-- <span class="skills-percentage">70%</span> -->
+              </div>
+          </div>
+          <div>
+             <!-- <h2 class="skills-subtitle">TOOLS</h2> -->
+             <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="assets\img\numpy.png" alt="" />
+                <span class="skills-name">Numpy</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="assets\img\pandas.png" alt="" />
+                <span class="skills-name">Pandas</span>
+              </div>
+
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="assets\img\git.png" alt="" />
+                <span class="skills-name">Git and Github</span>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+    </section>
+
+    <!--===== Projects =====-->
+    <section class="projects section" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-container">
+
+        <div class="project-img">
+          <img src="assets\img\Credit_Card_Fraud_Detection.png" alt="fraudDetection" />
+          <p class="project-title">Credit fraud detection</p>
+          <p class="project-subtitle">
+              <br />
+              Designed and implemented an effective solution for detecting
+              credit card frauds in real-time by analyzing large amounts of
+              transactional data.<br /><br/>
+              Pre-processed the data and conducted exploratory data analysis to
+              identify patterns and Implemented Logistic Regression, Random
+              Forest, and XGBoost to predict fraudulent transactions
+              <br/>
+              <br />Pandas | ML | Numpy | Seaborn | Matplotlib
+          </p>
+          <div class="project-btns">
+              <a href="https://github.com/AbhishekPanta8/CreditCardFraudDetection" target="_blank" class="small-btn button">
+                  <i class="bx bxl-github"></i>
+              </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="assets\img\VideoChatApplication.png" alt="VideoChatApplication img" />
+          <p class="project-title">Video-Chat Application with Sign Language Detection</p>
+          <p class="project-subtitle">
+              Built a video-chat application with sign language detection for deaf people who cannot hear.
+              <br /><br />
+              We used MediaPipe, OpenCV for detecting hand gestures and created an LSTM deep learning model for final prediction. Finally, we integrated it with React.js, Socket.io, and Flask for seamless communication between the user and the ML model.
+              <br /><br/>
+              It is a group project.
+              <br />
+              <br />ML | LSTM | DL | Flask | Socket.io | React.js | OpenCV
+          </p>
+          <div class="project-btns">
+              <a href="https://github.com/AbhishekPanta8/BrainTumorDetection" target="_blank" class="small-btn button">
+                  <i class="bx bxl-github"></i>
+              </a>
+          </div>
+      </div>
+
+        <div class="project-img">
+          <img src="assets\img\shopnow.png" alt="shopnow" />
+          <p class="project-title">ShopNOw website</p>
+          <p class="project-subtitle">
+              An e-commerce application using React.js for frontend
+              and Node.js and MongoDB for backend and database.
+              <br /><br />
+              It is an individual project built by me.
+              <br />Node.js | React.js | Mongo DB
+          </p>
+          <div class="project-btns">
+              <a href="https://github.com/AbhishekPanta8/shopnow" target="_blank" class="small-btn button">
+                  <i class="bx bxl-github"></i>
+              </a>
+          </div>
+      </div>
+
+      <div class="project-img">
+          <img src="assets\img\brain_tumor.png" alt="tumor prediction img" />
+          <p class="project-title">Brain Tumor prediction using Deep Learning</p>
+          <p class="project-subtitle">
+              Successfully built a CNN model for predicting three different types of brain tumors.
+              <br /><br />
+              Built a neural network inspired by VGG-16. Trained the model and obtained an accuracy of 94.02%, and
+              validation accuracy of 89.46%.
+              <br /><br />
+              It is an individual project built by me.
+              <br />ML | numpy | DL | Matplotlib
+          </p>
+          <div class="project-btns">
+              <a href="https://github.com/AbhishekPanta8/shopnow" target="_blank" class="small-btn button">
+                  <i class="bx bxl-github"></i>
+              </a>
+          </div>
+      </div>
+
+      <div class="project-img">
+          <img src="assets\img\invoiceMangaement.png" alt="invoice Management App" />
+          <p class="project-title">INVOICE MANAGEMENT APP</p>
+          <p class="project-subtitle">
+              Successfully built a Bill Management AI-enabled app with a neat UI following
+              clean coding practices that predicts the date at which the customer will clear
+              the payment.
+              <br /><br />
+              It is a group project built by 3 members.
+              <br />React.js | Servlets | jdbc | python | Mysql | nympy | pandas
+          </p>
+      </div>
+
+
+      </div>
+    </section>
+  </main>
+
+  <!--===== FOOTER + CONTACT=====-->
+
+  <footer class="footer section" id="contact">
+    <h2 class="section-title">Get in Touch</h2>
+    <p class="footer-title">Abhishek Panta</p>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/abhishek-panta-44345018b/" target="_blank" class="footer-icon"><i
+          class="bx bxl-linkedin">
+          <br />
+          LinkedIn</i></a>
+      <a href="https://twitter.com/abhishe95362054?lang=en" target="_blank" class="footer-icon"><i class="bx bxl-twitter">
+          <br />
+          Twitter</i></a>
+      <a href="mailto:pantaabhishek@gmail.com" target="_blank" class="footer-icon"><i class="bx bx-mail-send">
+          <br />
+          E-mail</i></a>
+      <a href="tel:+91 9668016788" target="_blank" class="footer-icon"><i class="bx bx-phone">
+          <br />
+          Phone</i></a>
+      <a href="https://github.com/AbhishekPanta8" target="_blank" class="footer-icon"><i
+            class="bx bxl-github">
+          <br />
+          GitHub
+          </i></a>
+    </div>
+    <p>&#169; 2021 copyright all right reserved</p>
+  </footer>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
